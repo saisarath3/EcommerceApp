@@ -6,7 +6,7 @@ import connectDB from "./config/db.js"
 import authRoutes from './routes/authRoute.js' 
 import cors from "cors"
 import categoryRoutes from './routes/categoryRoutes.js'
- import ProductRoutes from './routes/ProductRoutes.js'
+ import ProductRoutes from './routes/productRoutes.js'
  import path from 'path';
  import { getGlobals } from 'common-es'
 const { __dirname, __filename } = getGlobals(import.meta.url)
